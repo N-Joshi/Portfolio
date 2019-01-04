@@ -1425,5 +1425,8 @@ ol {
 	.img1{
 		max-width:fit-content;
 	}
+	.w-100 {
+    width: -webkit-fill-available;
+}
 	
 }

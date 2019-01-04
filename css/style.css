@@ -67,14 +67,14 @@ ol {
 	Helper CSS
 -----------------------*/
 .spad {
-	padding-top: 125px;
-	padding-bottom: 110px;
+	padding-top: 90px;
+	
 }
 
 .section-title h2 {
 	display: inline-block;
 	position: relative;
-	margin-bottom: 110px;
+	margin-bottom: 80px;
 	padding-bottom: 2px;
 	line-height: normal;
 }
@@ -185,7 +185,7 @@ ol {
 
 .circle-progress .prog-title {
 	text-align: center;
-	margin-top: 55px;
+	margin-top: 70px;
 }
 
 .circle-progress .prog-title h3 {
@@ -392,6 +392,7 @@ ol {
 
 .hero-image {
 	padding-top: 70px;
+	
 }
 
 .hero-info h2 {
@@ -442,6 +443,19 @@ ol {
 .social-section .social-link-warp {
 	position: relative;
 }
+
+
+.landscape {
+	height: 450px;
+    width: 450px;
+}
+	
+.shift{
+	padding-left:inherit;
+	max-width:450rem;
+
+	}
+
 
 .social-section .social-link-warp h2 {
 	display: inline-block;
@@ -659,20 +673,6 @@ ol {
 	font-style: italic;
 }
 
-/*---------------------
-	Footer section
------------------------*/
-.footer-section {
-	background:  #d9d9d9;
-	padding: 20px 0;
-	
-}
-
-.footer-section  h2{
-	color: #004d80;
-	font-family:"Courier New", Courier, monospace;
-	
-}
 
 /*---------------------
 	Home 2 Style
@@ -1019,6 +1019,7 @@ ol {
 .home-five-style .social-links a {
 	font-size: 30px;
 	margin-right: 40px;
+	text-align: center;
 	color: #b9b9b9;
 }
  .social-links i {
@@ -1421,5 +1422,8 @@ ol {
 		padding-top: 250px;
 	}
 	
-
+	.img1{
+		max-width:fit-content;
+	}
+	
 }
